@@ -6,7 +6,7 @@ set -e
 
 push_addr=git@github.com:hualess/video.hualess.cn.git # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
 commit_info=更新
-
+push_branch=main # 推送的分支
 
 #清除git信息
 rm -rf ./git
